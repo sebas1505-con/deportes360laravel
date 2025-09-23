@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="image/x-icon" href="images/pedidos.png">
   <title>Pedidos Pendientes - Deportes 360</title>
-  <link rel="stylesheet" href="{{ asset('css/pedidos.css') }}">
+  <link rel="stylesheet" href="{{ asset('public/css/pedidos.css') }}">
 </head>
 <body>
 

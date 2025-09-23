@@ -67,15 +67,24 @@ button:hover {
 }
 
 .btn-volver, .recuperar {
-  display: block;
+  display: inline-block;
   margin-top: 10px;
-  text-decoration: none;
+  background: #007bff;   /* fondo azul */
+  color: #fff;           /* texto blanco */
+  padding: 8px 15px;     /* espacio interno */
+  border-radius: 8px;    /* esquinas redondeadas */
   font-size: 14px;
-  color: #007bff;
+  font-weight: bold;
+  text-decoration: none; /* sin subrayado */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
 }
 
 .btn-volver:hover, .recuperar:hover {
-  text-decoration: underline;
+  background: #0056b3;   /* azul más oscuro al pasar el mouse */
+  text-decoration: none;
+}
+
 }
 .button-group {
   display: flex;
@@ -96,7 +105,25 @@ button:hover {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
+.btn-volver-home {
+  position: absolute;
+  top: 20px;       /* distancia desde arriba */
+  left: 20px;      /* distancia desde la izquierda */
+  background: #007bff;   /* color de fondo igual al botón */
+  color: #fff;           /* texto en blanco */
+  padding: 8px 15px;     /* espacio interno */
+  border-radius: 8px;    /* bordes redondeados */
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* sombra ligera */
+  transition: background 0.3s ease;
+}
 
+.btn-volver-home:hover {
+  background: #0056b3;   /* color más oscuro al pasar el mouse */
+  text-decoration: none; /* sin subrayado */
+}
 
 
 
